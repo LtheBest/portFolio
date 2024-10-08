@@ -84,8 +84,8 @@
             compétences avec des outils comme React, Playwright et Cucumber.
           </p>
 
-          <!-- Texte qui sera masqué et déroulé -->
-          <div class="more-content">
+          <!-- Texte à afficher ou masquer -->
+          <div id="moreText" style="display: none">
             <p>
               Avant cela, j'ai eu la chance de contribuer à divers projets,
               comme la création d'un site de vente de formations en ligne pour
@@ -106,10 +106,10 @@
             </p>
           </div>
 
-          <!-- Bouton "Voir plus / Voir moins" -->
-          <a class="toggleButton">
-            Voir plus <i id="chevronIcon" class="fas fa-chevron-down"></i>
-          </a>
+          <!-- Bouton pour afficher/masquer -->
+          <a id="toggleButton" onclick="toggleText()"
+            >Voir plus <i id="chevronIcon" class="fas fa-chevron-down"></i
+          ></a>
         </article>
 
         <!-- Work -->
@@ -332,8 +332,8 @@
           <p>Bonjour et bienvenue !</p>
           <p>
             Pour toute question ou collaboration, n'hésitez pas à me contacter
-            via le numéro suivant : <strong>+33 753 972 768</strong>, ou par email à l'adresse
-            suivante : <strong>loicstonda@gmail.com</strong>.
+            via le numéro suivant : <strong>+33 753 972 768</strong>, ou par
+            email à l'adresse suivante : <strong>loicstonda@gmail.com</strong>.
           </p>
           <p>
             Je me ferai un plaisir de vous répondre dans les plus brefs délais.
@@ -342,7 +342,9 @@
           <p>LOIC TONDA</p>
           <ul class="icons">
             <li>
-              <a href="https://www.linkedin.com/in/loic-tonda-ab605924a/" class="icon fa-linkedin"
+              <a
+                href="https://www.linkedin.com/in/loic-tonda-ab605924a/"
+                class="icon fa-linkedin"
                 ><span class="label">Linkedin</span></a
               >
             </li>
@@ -352,12 +354,12 @@
               >
             </li>
             <li>
-              <a href="https://wa.me/+33753972768" class="icon  fa-whatsapp"
+              <a href="https://wa.me/+33753972768" class="icon fa-whatsapp"
                 ><span class="label">Whatsapp</span></a
               >
             </li>
             <li>
-              <a href="mailto:loicstonda@gmail.com"  class="icon fa-envelope"
+              <a href="mailto:loicstonda@gmail.com" class="icon fa-envelope"
                 ><span class="label">E-mail</span></a
               >
             </li>
@@ -370,8 +372,10 @@
       <!-- Footer -->
       <footer id="footer">
         <p class="copyright">
-          &copy; Contact: +33 753 972 768 <a href="https://github.com/LtheBest">GitHub</a> jeux en
-          Email: loicstonda@gmail.com <a href="https://lthebest.github.io/jeux/">Snackee</a>.
+          &copy; Contact: +33 753 972 768
+          <a href="https://github.com/LtheBest">GitHub</a> jeux en Email:
+          loicstonda@gmail.com
+          <a href="https://lthebest.github.io/jeux/">Snackee</a>.
         </p>
       </footer>
     </div>
