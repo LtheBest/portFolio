@@ -1189,6 +1189,63 @@ button {
   transition: width 2s ease-in-out;
 }
 
+/* carousel */
+.carousel-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.carousel {
+  display: flex;
+  gap: 20px;
+  white-space: nowrap;
+  animation: scroll 10s linear infinite;
+}
+
+/* Ajout d'un padding pour que le premier élément soit bien visible */
+.carousel-wrapper {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  padding-left: 20px; /* Ajoute un espace pour voir la première carte */
+}
+
+.carousel-item {
+  min-width: 300px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 16px; /* Assure que le titre est bien visible */
+  font-weight: bold;
+}
+
+.carousel-item img {
+  width: 80px;
+  height: auto;
+  margin-top: 10px;
+}
+
+/* Animation fluide et continue */
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+
 /* Texte à l'intérieur du bouton */
 .btn-text {
   position: relative;

@@ -36,6 +36,7 @@
                         <li><a href="#intro">Bio</a></li>
                         <li><a href="#work">Projets</a></li>
                         <li><a href="#about">Competences</a></li>
+                        <li><a href="#certificat">Certifications</a></li>
                         <li><a href="#contact">Contact</a></li>
                         <!--<li><a href="#elements">Elements</a></li>-->
                     </ul>
@@ -50,7 +51,7 @@
                     <span class="image main"><img src="images/pic01.jpg" alt="" /></span>
                     <p>Bonjour et bienvenue sur mon portfolio !</p>
                     <p>Développeur web Full Stack passionné, avec un parcours académique riche, notamment un Master 2 en Architecture Web. Mon parcours m'a permis de développer des compétences solides, tant sur le plan théorique que pratique, dans les domaines du développement et de l'architecture logicielle.</p>
-                    <p>Depuis septembre 2022, j'ai l'opportunité de travailler chez SNCF Connect & Tech en tant qu'alternant assistant développeur Full Stack. Cette expérience m'a permis de participer à des projets clés, tels que la mise en place d'un système de gestion de contenu pour le portail Wi-Fi TGV, ainsi que le support aux équipes en charge des tests E2E. J'ai également eu l'occasion de traiter divers tickets pour les clients TER, TGE et LYRIA, tout en approfondissant mes compétences avec des outils comme React, Playwright et Cucumber.</p>
+                    <p>Depuis septembre 2023, j'ai l'opportunité de travailler chez SNCF Connect & Tech en tant qu'alternant assistant développeur Full Stack. Cette expérience m'a permis de participer à des projets clés, tels que la mise en place d'un système de gestion de contenu pour le portail Wi-Fi TGV, ainsi que le support aux équipes en charge des tests E2E. J'ai également eu l'occasion de traiter divers tickets pour les clients TER, TGE et LYRIA, tout en approfondissant mes compétences avec des outils comme React, Playwright et Cucumber.</p>
 
                     <!-- Texte qui sera masqué et déroulé -->
                     <div class="toggle-section">
@@ -71,11 +72,11 @@
                     <span class="image main"><img src="images/pic04.jpg" alt="" /></span>
                     <div class="toggle-section">
                         <div class="more-content">
-                            <h3>Projets académique</h3>
+                            <h3>Projets</h3>
                             <p>Proposition d'une nouvelle méthode de travail pour remédier aux problèmes rencontrés avec le cycle en V, incluant la mise en place d'un workflow de production, intégration ELK pour la journalisation des logs et de test. Cette méthodologie sera appliquée à la création d'un site pour le lancement d'une nouvelle boutique "Thé Tip Top" à l'occasion de son 10ème anniversaire.</p>
                             <span class="image main"><img src="images/pic05.jpg" alt="" /></span>
                             <p>Le tableau de bord Kibana vous permet de surveiller l'activité des logs de l'application et d'identifier rapidement les problèmes</p>
-                            <span class="image main"><img src="images/pic011.png" alt="" /></span>
+                            <span class="image main"><img src="images/pic010.png" alt="" /></span>
                             <p>Création d'un site dédié à la location d'espaces de coworking, incluant des salons privés et publics, à destination des entrepreneurs et startups, freelances, télétravailleurs, équipes projet temporaires, consultants, nomades digitaux, étudiants et jeunes diplômés, professionnels créatifs, grandes entreprises, associations, et autres.</p>
                             <span class="image main"><img src="images/pic06.jpg" alt="" /></span>
                             <h3>Projets</h3>
@@ -83,6 +84,11 @@
                             <span class="image main"><img src="images/pic07.jpg" alt="" /></span>
                             <p>Création d'un site web de type blog en PHP pour un journal local fictif, permettant aux utilisateurs de publier un ou plusieurs articles, d'ajouter des catégories et de modifier les informations de leur profil.</p>
                             <span class="image main"><img src="images/pic08.jpg" alt="" /></span>
+                            <p> Conception et développement d'une solution e-commerce utilisant le framework Symfony, gestion de catalogue, panier utilisateur, et intégration de paiements sécurisés.</p>
+                            <span class="image main"><img src="images/pic012.png" alt="" /></span>
+                            <span class="image main"><img src="images/pic011.png" alt="" /></span>
+                            <span class="image main"><img src="images/pic013.png" alt="" /></span>
+                            <span class="image main"><img src="images/pic014.png" alt="" /></span>
                         </div>
                         <!-- Bouton "Voir plus / Voir moins" -->
                         <a class="toggleButton"> Voir plus <i id="chevronIcon" class="fas fa-chevron-down"></i> </a>
@@ -289,6 +295,32 @@
                         <a class="toggleButton"> Voir plus <i id="chevronIcon" class="fas fa-chevron-down"></i> </a>
                     </div>
                 </article>
+                <!-- certificat -->
+                <article id="certificat">
+                    <div class="carousel-container">
+                      <div class="carousel-wrapper">
+                        <div class="carousel">
+                            <div class="carousel-item">
+                                <h3>certificat</h3>
+                                    <img src="images/certificat-de-garantie.png" alt="Algo">
+                              </div>
+                          <div class="carousel-item">
+                            <h3>Logique de programmation</h3>
+                                <img src="images/cerveau.png" alt="Algo">
+                          </div>
+                          <div class="carousel-item">
+                            <h3>Python</h3>
+                            <img src="images/python.png" alt="python">
+                          </div>
+                          <div class="carousel-item">
+                            <h3>WordPress</h3>
+                                <img src="images/wordpress.png" alt="wordpress">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </article>
+                
 
                 <!-- Contact -->
                 <article id="contact">
@@ -331,6 +363,7 @@
         <div id="bg"></div>
 
         <!-- Scripts -->
+        <script src="assets/js/caroule.js"></script>
         <script src="assets/js/jquery.min.js"></script>
         <script src="assets/js/skel.min.js"></script>
         <script src="assets/js/util.js"></script>
